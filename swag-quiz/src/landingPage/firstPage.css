@@ -1,0 +1,81 @@
+
+
+/**BackGround Gradient*/
+.background{
+    background: radial-gradient(100% 100% at 50% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #E7EFFF;
+}
+
+
+/**Logo*/
+.logo{
+    display : flex ;  
+}
+.heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    display: flex;
+    margin : 2vw;
+    color: #5ECAE4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title{
+    height : 100vh ;
+    padding : 1vh 0 ; 
+    text-align: center;
+    justify-content : center ; 
+}
+
+
+/**tag animation*/
+.tag{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vw;
+    color: #5ECAE4;
+    animation : typing 3s steps(11), blink 0.5s step-end infinite alternate ; 
+    white-space : nowrap ;
+    width : 12ch ;
+    overflow : hidden ;
+    
+}
+.tag-wrapper{
+    display : flex ;
+    align-items: center;
+    justify-content : center;
+    box-align : center;
+    margin : auto ;
+}
+@keyframes typing{
+    from{
+        width : 0
+    }
+}
+@keyframes blink{
+    50%{
+        border : transparent
+    }
+}
+
+
+/**Motto*/
+.motto{
+    font-style: normal;
+font-weight: normal;
+font-size: 2vw;
+color: #3D495E;
+}
+
+
+/**Button Know Your Water*/
+.btn{
+    background: #3D495E;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    color : white ;
+    width : 25%;
+    height : 6% ;
+    box-align : center;
+    margin : auto ;
+}
+
